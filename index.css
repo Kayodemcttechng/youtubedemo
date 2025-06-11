@@ -41,63 +41,10 @@ input{
 }
 .btn:hover{
     color: blueviolet;
-}
-.card-container {display: flex; justify-content: space-around;flex: 40%;padding-left: 150px; margin-top: 30px;width: 80%; margin-left: 50px;
-    }
-    .card {
-  width: 89%; /* 4 cards per row with some margin */
-  border-radius: 8px;
-  padding: 6px;
-}
-.card img {
-      width: 100%;
-      height: auto;
-      border-radius: 6px;
-    }
-    .card h3 {
-      margin-top: 10px; font-size: 17px;
-    }
-    .card p {
-      color: #555;font-size: 10px;
-    }
-    .shorts{
-        display: flex;align-items: center;margin-top: 20px;padding-left: 200px;
-    }
-    .shortimage{
-        width: 20px;
-    }
-    .test{background-color:#fff; display: flex; gap: 5px;
-    }
-   .test img{background-color:#fff; width: 30px;height: 30px; border-radius: 35px;
-    }
-    
+}   
     .container {
       display: inline-block;
       height: 100vh;
-    }
-
-    .sidebar {
-      width: 70px;
-      background-color: #2c3e50;
-      color: white;
-      padding: 20px;justify-content: center;
-    }
-
-    .sidebar h2 {
-      margin-top: 0;
-    }
-
-    .sidebar a {
-      display: block;
-      color: white;
-      text-decoration: none;
-      margin: 10px 0;
-      padding: 10px;
-      border-radius: 4px;
-    }
-
-    .sidebar a:hover {
-      background-color: #34495e;
     }
     .bell1{
       width:30px; height: 30px;background-color: #fff; border: none;position: relative;
@@ -112,4 +59,29 @@ input{
       background-color: red;
       color: #fff;font-size: 11px;
       width: 13px; height: 13px; border-radius: 50%;position: absolute;right: 0px;top: 0px;padding: 1px;
+    }
+    /* css for the videos */
+    .main{
+        padding: 30px 30px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;
+    }
+    .video-info{
+        display: flex; gap: 10px;
+    }
+    .video-card{
+        width:fit-content;
+    }
+    .thumbnail{
+        width: 100%; margin-bottom: 8px; border-radius: 10px;cursor: p;
+    }
+     .thumbnail:hover{
+        width: 100%; margin-bottom: 8px; border-radius: 0;cursor: p;
+    }
+    .video-details h2{
+        font-size: 15px;margin-bottom: 8px;cursor: pointer;font-family: roboto;
+    }
+     .video-details p, span{
+        font-size: 12px; color: rgb(67, 65, 65);
+    }
+    .profile-img img{
+        width: 25px;
     }
